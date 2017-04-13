@@ -105,7 +105,6 @@ def create_hieradata(config, message):
 
     xxxx_options['key1'] = config['CONFIG_XXX']
 
-    _, HIERA_COMMON_DIR = generateHieraDataDir(config['CONFIG_ENVIRONMENT'],
-                          config['CONFIG_DOMAIN_NAME'])
+    _, HIERA_COMMON_DIR = generateHieraDataDir(config['CONFIG_ENVIRONMENT'], config['CONFIG_DOMAIN_NAME'])
     hiera_file = os.path.join(HIERA_COMMON_DIR, 'xxx.yaml')
     generateHieraDataFile(hiera_file, xxxx_options)

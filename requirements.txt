@@ -2,6 +2,6 @@ pbr>=1.6 # Apache-2.0
 netaddr>=0.7.6
 PyYAML>=3.10
 docutils>=0.11
-cryptography<=1.2.1
+cryptography
 pyOpenSSL<15.0.0
 netifaces

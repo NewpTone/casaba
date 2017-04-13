@@ -1,6 +1,7 @@
 # Casaba Overview
 
 **Casaba** is a utility to install **OpenStack** on **Red Hat** based operating system.
+
 **Casaba** is originally forked from **Packstack**, but it use Puppet C/S mode to take
 place of standalone mode.
 Besides that, it not only used for POC environment, but also for deploying OpenStack

@@ -1,0 +1,9 @@
+include docs/*
+include LICENSE
+include README.md
+recursive-include casaba/puppet *
+recursive-include casaba/templates *
+global-exclude .gitignore
+global-exclude .gitmodules
+global-exclude .git
+prune casaba/puppet/modules/*/.git

@@ -1,0 +1,9 @@
+*.py[co]
+*.swp
+*.log
+.tox
+.testrepository/
+vendor/*
+Gemfile.lock
+casaba.egg-info
+releasenotes/build

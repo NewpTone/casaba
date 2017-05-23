@@ -1,0 +1,17 @@
+---
+# Change the default value
+sunfire::uoc::yumrepo::repo_url: 'mirrors.example.in'
+sunfire::uoc::yumrepo::docroot: '/opt/rpm'
+puppetdb::database_password: 'changeme'
+
+# Override the value if needed
+puppetdb::manage_package_repo: false
+puppetserver::config:
+  java_args:
+      xms: '4g'
+      xmx: '8g'
+      maxpermsize: '1024m'
+
+# DO NOT CHANGE THESE!
+apache::purge_configs: false
+

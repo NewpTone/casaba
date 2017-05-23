@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: "/tmp/uoc_installer/hiera"
+:hierarchy:
+  - "%{::operatingsystem}"
+  - "%{::osfamily}"
+  - uoc
